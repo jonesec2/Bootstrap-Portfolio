@@ -1,13 +1,13 @@
 # Bootstrap-Portfolio
 Creating a portfolio using Bootstrap
 
-# Portfolio-UoR
-Christian Jones Portfolio project
 
 ## Description
 In order to communicate effectively with future employers, I need an online portfolio showcasing my work.
 
 This repo will contain the portfolio in html/css form.
+
+For this iteration of my portfolio I will be using Bootstrap.
 
 ## Table of contents
 
