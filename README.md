@@ -13,7 +13,7 @@ For this iteration of my portfolio I will be using Bootstrap.
 
 * [About_Me](#about_me)
 * [Contact](#Contact)
-* [Gallery](#Gallery)
+* [Portfolio](#Portfolio)
 * [License](#license)
 
 ## About_Me
@@ -22,7 +22,7 @@ This section of my portfolio will contain information about myself. A brief desc
 ## Contact
 This section of my portfolio will include information on how to get in contact with me, or leave me your own contact information. I look forward to hearing from you.
 
-## Gallery
+## Portfolio
 This section of my portfolio will showcase all the projects that I have created. Enjoy!
 
 ## Credits
