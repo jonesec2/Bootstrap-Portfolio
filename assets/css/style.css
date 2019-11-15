@@ -10,6 +10,7 @@ body {
     width: 960px;
 }
 
+
 .name {
     font-size: 24px;
     color: white;
@@ -47,6 +48,26 @@ h1 {
     font-size: 30px;
 }
 
+/* .portfolio-container {
+    position: relative;
+} */
+
+.portfolio-image {
+    max-width: 320px;
+    position: relative;
+
+}
+
+.portfolio-image img {
+    width:100%;
+}
+
+.portfolio-banner {
+    position: absolute;
+    z-index: 50;
+    left: 0;
+    bottom: 15px;
+}
 .picture {
     width: 192px;
     height: 288px;
