@@ -42,6 +42,16 @@ body {
     font-size: 22px;
 }
 
+.link3 {
+    color: #ffffff;
+    text-decoration: none !important;
+    font-size: 18px;
+}
+
+.link3:hover {
+    color: #ffffff;
+}
+
 h1 {
     color: #4aaaa5 ;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -53,13 +63,16 @@ h1 {
 } */
 
 .portfolio-image {
-    max-width: 320px;
+    max-width: 274px;
     position: relative;
+    width:250px;
+    height: 187.5px;
+}
 
 }
 
 .portfolio-image img {
-    width:100%;
+    width: 100%;
 }
 
 .portfolio-banner {
