@@ -18,6 +18,7 @@ body {
     
 }
 
+
 .link {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight:800;
@@ -58,6 +59,10 @@ h1 {
     font-size: 30px;
 }
 
+.navbar-toggler-icon {
+    color: #777777;
+}
+
 /* .portfolio-container {
     position: relative;
 } */
@@ -65,14 +70,15 @@ h1 {
 .portfolio-image {
     max-width: 274px;
     position: relative;
-    width:250px;
-    height: 187.5px;
+    /* width:250px;
+    height: 187.5px; */
 }
 
-}
 
-.portfolio-image img {
+.img-style {
     width: 100%;
+    /* max-width: 100%; */
+    height: auto;
 }
 
 .portfolio-banner {
@@ -85,3 +91,8 @@ h1 {
     width: 192px;
     height: 288px;
 }
+
+/* .img-shark {
+    height: 179.81px;
+    width: 239.75px;
+} */
