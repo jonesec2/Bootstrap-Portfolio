@@ -6,8 +6,12 @@ body {
     color: #777777;
 }
 
+.navbar {
+    background-color: white !important;
+}
+
 .width {
-    width: 960px;
+    width: 960px !important;
 }
 
 
@@ -63,10 +67,6 @@ h1 {
     color: #777777;
 }
 
-/* .portfolio-container {
-    position: relative;
-} */
-
 .portfolio-image {
     max-width: 274px;
     position: relative;
@@ -76,7 +76,7 @@ h1 {
 
 
 .img-style {
-    width: 100%;
+    /* width: 100%; */
     /* max-width: 100%; */
     height: auto;
 }
@@ -92,7 +92,51 @@ h1 {
     height: 288px;
 }
 
-/* .img-shark {
-    height: 179.81px;
-    width: 239.75px;
+/* html,
+body {
+  height: 100%;
 } */
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+@media only screen and (max-width: 518px) {
+    [class*="col-"] {
+      width:100%;
+    }
+  }
+/*
+  @media (max-width: 518px) {
+[class*=col-sm-12] {
+    flex: 0 0 100%;
+    max-width: 100%;}
+}
+
+@media (max-width: 518px) {
+    [class*=link3] {
+        flex: 0 0 100%;
+        max-width: 100%;}
+    }
+
+    @media only screen and (max-width: 468px) {
+        [class*="col-"] {
+          width:100%;
+        }
+      }
+    
+      @media (max-width: 468px) {
+    [class*=col-sm-12] {
+        flex: 0 0 100%;
+        max-width: 100%;}
+    }
+    
+    @media (max-width: 468px) {
+        [class*=link3] {
+            flex: 0 0 100%;
+            max-width: 100%;}
+        } */
